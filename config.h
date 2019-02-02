@@ -21,8 +21,8 @@
 #include "config_common.h"
 
 /* USB Device descriptor parameter */
-#define VENDOR_ID       0xFEED
-#define PRODUCT_ID      0xB919
+#define VENDOR_ID       0x04D8
+#define PRODUCT_ID      0xEDE3
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    "od_1969"
 #define USBSTR_MANUFACTURER 'o', '\x00', 'd', '\x00', '_', '\x00', '1', '\x00', '9', '\x00', '6', '\x00', '9', '\x00'
