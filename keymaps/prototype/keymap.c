@@ -53,14 +53,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	),
 	
 	[_FN] = KEYMAP(
-		KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_EJCT, KC_NO,    KC_NO,     KC_NO,     KC_BRIU,   KC_NO,     KC_NO,     KC_NO,    \
+		KC_NO,   RESET,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_EJCT, KC_NO,    KC_NO,     KC_NO,     KC_BRIU,   KC_NO,     KC_NO,     KC_NO,    \
 		KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,    KC_NO,     KC_NO,     KC_BRID,   KC_SYSREQ, KC_NO,     KC_NO,    \
 		KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,    KC_NO,     KC_NO,     KC_NO,     KC_LNUM,   KC_NO,     KC_NO,    \
 		KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,    KC_NO,     KC_NO,     KC_NO,     KC_NO,     KC_NO,     KC_NO,    \
 		KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,    KC_NO,     KC_NO,     KC_NO,     KC_NO,     KC_NO,     KC_NO,    \
-		KC_NO,   KC_NO,   KC_SLEP, KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,    KC_NO,     KC_NO,     KC_NO,     KC_NO,     KC_NO,     KC_NO,    \
+		KC_NO,   KC_NO,   KC_SLEP, KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,    KC_NO,     KC_NO,     KC_MSTP,   KC_NO,     KC_NO,     KC_NO,    \
 		KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,    KC_NO,     KC_NO,     KC_BRK,    KC_NO,     KC_NO,     KC_NO,    \
-		KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,    KC_NO,     KC_NO,     KC_NO,     KC_NO,     KC_NO,     KC_NO     \
+		KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_MPRV,  KC_MPLY,   KC_NO,     KC_MNXT,   KC_NO,     KC_NO,     KC_NO     \
 	)
 		
 };
