@@ -6,13 +6,13 @@
 //#define TP_Fn	KC_F	// Fn
 #define TP_PWR1	KC_PWR 	// Power (X220/230)
 #define TP_PWR2	KC_PWR 	// Power (X40-X201)
-#define TP_AITV	KC_T	// Accsess IBM or ThinkVantage
+#define TP_AITV	KC_MYCM	// Accsess IBM or ThinkVantage
 #define TP_SMUT	KC_MUTE	// Speaker Mute
-#define TP_MMUT	KC_M	// Mic Mute
+#define TP_MMUT	KC_WAKE	// Mic Mute
 #define TP_VOLU KC_VOLU	// Speaker Volume Up
 #define TP_VOLD	KC_VOLD	// Speaker Volume Down
-#define TP_PL	KC_L	// Page Up
-#define TP_PR	KC_R	// Page Down
+#define TP_BRBA	KC_WBAK	// Browser Back(Left)
+#define TP_BRNE	KC_WFWD	// Browser Next(Right)
 
 /*
 //Japanese Key
@@ -48,8 +48,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		KC_TAB,  KC_CAPS, KC_F3,   KC_T,   KC_Y,   JP_LBRC,  KC_F7,   JP_AT,    KC_BSPC, KC_LGUI,  TP_VOLD,   KC_NO,     KC_NO,     KC_NO,     KC_LSFT,   KC_NO,    \
 		KC_A,    KC_S,    KC_D,    KC_F,   KC_J,   KC_K,     KC_L,    KC_SCLN,  KC_BSLS, KC_NO,    TP_SMUT,   KC_APP,    KC_NO,     KC_NO,     KC_NO,     KC_NO,    \
 		KC_ESC,  FN,      KC_F4,   KC_G,   KC_H,   KC_F6,    JP_HENK, KC_QUOT,  KC_F5,   KC_NO,    TP_AITV,   KC_NO,     KC_UP,     KC_LALT,   KC_NO,     KC_NO,    \
-		KC_Z,    KC_X,    KC_C,    KC_V,   KC_M,   KC_COMM,  KC_DOT,  JP_RBRC,  KC_ENT,  KC_NO,    TP_MMUT,   TP_PL,     KC_PAUS,   KC_NO,     KC_RSFT,   KC_RCTRL, \
-		JP_MHEN, TP_PWR1, KC_NO,   KC_B,   KC_N,   JP_BSLS,  JP_KANA, KC_SLSH,  KC_SPC,  KC_RGHT,  KC_DOWN,   TP_PR,     KC_LEFT,   KC_RALT,   KC_NO,     KC_NO     \
+		KC_Z,    KC_X,    KC_C,    KC_V,   KC_M,   KC_COMM,  KC_DOT,  JP_RBRC,  KC_ENT,  KC_NO,    TP_MMUT,   TP_BRBA,   KC_PAUS,   KC_NO,     KC_RSFT,   KC_RCTRL, \
+		JP_MHEN, TP_PWR1, KC_NO,   KC_B,   KC_N,   JP_BSLS,  JP_KANA, KC_SLSH,  KC_SPC,  KC_RGHT,  KC_DOWN,   TP_BRNE,   KC_LEFT,   KC_RALT,   KC_NO,     KC_NO     \
 	),
 	
 	[_FN] = KEYMAP(
