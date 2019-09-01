@@ -42,14 +42,14 @@ enum TP_keycodes {
 //ThinkPad X220 JP Default KEYMAP
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	[_QWERTY] = KEYMAP(
-		KC_TILD, KC_F1,   KC_F2,   KC_5,   KC_6,   KC_EQL,   KC_F8,   KC_MINS,  KC_F9,   KC_INS,   KC_DEL,    KC_PGUP,   KC_HOME,   KC_NO,     KC_NO,     KC_LCTRL, \
+		KC_ZKHK, KC_F1,   KC_F2,   KC_5,   KC_6,   KC_EQL,   KC_F8,   KC_MINS,  KC_F9,   KC_INS,   KC_DEL,    KC_PGUP,   KC_HOME,   KC_NO,     KC_NO,     KC_LCTRL, \
 		KC_1,    KC_2,    KC_3,    KC_4,   KC_7,   KC_8,     KC_9,    KC_0,     KC_F10,  KC_F12,   KC_F11,    KC_PGDN,   KC_END,    KC_PSCR,   KC_NO,     KC_NO,    \
 		KC_Q,    KC_W,    KC_E,    KC_R,   KC_U,   KC_I,     KC_O,    KC_P,     JP_YEN,  KC_NO,    TP_VOLU,   TP_PWR2,   KC_NO,     KC_LSCR,   KC_NO,     KC_NO,    \
 		KC_TAB,  KC_CAPS, KC_F3,   KC_T,   KC_Y,   JP_LBRC,  KC_F7,   JP_AT,    KC_BSPC, KC_LGUI,  TP_VOLD,   KC_NO,     KC_NO,     KC_NO,     KC_LSFT,   KC_NO,    \
 		KC_A,    KC_S,    KC_D,    KC_F,   KC_J,   KC_K,     KC_L,    KC_SCLN,  KC_BSLS, KC_NO,    TP_SMUT,   KC_APP,    KC_NO,     KC_NO,     KC_NO,     KC_NO,    \
 		KC_ESC,  FN,      KC_F4,   KC_G,   KC_H,   KC_F6,    JP_HENK, KC_QUOT,  KC_F5,   KC_NO,    TP_AITV,   KC_NO,     KC_UP,     KC_LALT,   KC_NO,     KC_NO,    \
 		KC_Z,    KC_X,    KC_C,    KC_V,   KC_M,   KC_COMM,  KC_DOT,  JP_RBRC,  KC_ENT,  KC_NO,    TP_MMUT,   TP_BRBA,   KC_PAUS,   KC_NO,     KC_RSFT,   KC_RCTRL, \
-		JP_MHEN, TP_PWR1, KC_NO,   KC_B,   KC_N,   JP_BSLS,  JP_KANA, KC_SLSH,  KC_SPC,  KC_RGHT,  KC_DOWN,   TP_BRNE,   KC_LEFT,   KC_RALT,   KC_NO,     KC_NO     \
+		JP_MHEN, KC_LGUI, KC_NO,   KC_B,   KC_N,   JP_BSLS,  JP_KANA, KC_SLSH,  KC_SPC,  KC_RGHT,  KC_DOWN,   TP_BRNE,   KC_LEFT,   KC_RALT,   KC_NO,     KC_NO     \
 	),
 	
 	[_FN] = KEYMAP(
