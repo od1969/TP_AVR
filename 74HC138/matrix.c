@@ -134,7 +134,7 @@ void setup_io_pins(void) {
   PORTB &= ~0x1E;
   for(row = 0; row < MATRIX_ROWS; row++) {
     *row_ddr[row]  &= ~row_bit[row];
-    *row_port[row] &= ~row_bit[row];
+    *row_port[row] |= row_bit[row];
   }
 }
 
@@ -191,8 +191,8 @@ uint8_t matrix_scan(void)
         for (uint8_t row = 0; row < MATRIX_ROWS; row++) {  // 0-17
             bool prev_bit = matrix_debouncing[row] & (1<<col);
             bool curr_bit = *row_pin[row] & row_bit[row];
-            if (prev_bit != curr_bit) {
-                matrix_debouncing[row] ^= ((matrix_row_t)1<<col);
+            if (prev_bit == curr_bit) {
+                matrix_debouncing[row] ^= ((matrix_row_t)1<<col);	
                 if (debouncing) {
                     dprintf("bounce!: %02X\n", debouncing);
                 }
