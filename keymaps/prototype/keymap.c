@@ -49,7 +49,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		KC_A,    KC_S,    KC_D,    KC_F,   KC_J,   KC_K,     KC_L,    KC_SCLN,  KC_BSLS, KC_NO,    TP_SMUT,   KC_APP,    KC_NO,     KC_NO,     KC_NO,     KC_NO,    \
 		KC_ESC,  FN,      KC_F4,   KC_G,   KC_H,   KC_F6,    JP_HENK, KC_QUOT,  KC_F5,   KC_NO,    TP_AITV,   KC_NO,     KC_UP,     KC_LALT,   KC_NO,     KC_NO,    \
 		KC_Z,    KC_X,    KC_C,    KC_V,   KC_M,   KC_COMM,  KC_DOT,  JP_RBRC,  KC_ENT,  KC_NO,    TP_MMUT,   TP_BRBA,   KC_PAUS,   KC_NO,     KC_RSFT,   KC_RCTRL, \
-		JP_MHEN, KC_LGUI, KC_NO,   KC_B,   KC_N,   JP_BSLS,  JP_KANA, KC_SLSH,  KC_SPC,  KC_RGHT,  KC_DOWN,   TP_BRNE,   KC_LEFT,   KC_RALT,   KC_NO,     KC_NO     \
+		JP_MHEN, TP_PWR1, KC_NO,   KC_B,   KC_N,   JP_BSLS,  JP_KANA, KC_SLSH,  KC_SPC,  KC_RGHT,  KC_DOWN,   TP_BRNE,   KC_LEFT,   KC_RALT,   KC_NO,     KC_NO     \
 	),
 	
 	[_FN] = KEYMAP(
